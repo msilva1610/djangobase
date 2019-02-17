@@ -5,4 +5,4 @@ from .models import Person
 
 def people(request):
     person = Person.objects.all()
-    return render(request, 'tutorial/people.html', {'people': person})
+    return render(request, 'tabela/people.html', {'people': person})
